@@ -190,14 +190,14 @@ const Navbar = () => {
 
           {/* ======== Header right ======== */}
           <div className="flex items-stretch gap-2.5">
-            <div className="hidden lgs:flex items-center group">
-              <div className="justify-center text-white text-sm font-medium leading-6 self-center grow whitespace-nowrap my-auto hover:opacity-70 ">
+            <div className="hidden lg:flex items-center group">
+              <div className="justify-center text-white text-base font-medium leading-6 self-center grow whitespace-nowrap my-auto hover:opacity-70 ">
                 Contact sales
               </div>
               <Arrow color={true} />
             </div>
             <div className="bg-white bg-opacity-20 hover:bg-opacity-35 lgs:flex items-stretch px-3.5 py-1 rounded-2xl hidden group">
-              <div className="justify-center text-white text-sm font-medium leading-6">
+              <div className="justify-center text-white text-base font-medium leading-6">
                 {" "}
                 Sign in
               </div>
