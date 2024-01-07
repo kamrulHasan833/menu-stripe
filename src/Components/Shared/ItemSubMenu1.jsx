@@ -7,11 +7,11 @@ const ItemSubMenu1 = ({ item }) => {
     <li>
       <a href="#" className="flex gap-6 group">
         <div>{icon}</div>
-        <div className="text-sm font-semibold text-title-color  ">
+        <div className="lgs:text-sm font-semibold text-title-color  ">
           <div className="flex gap-2 items-center">
             {" "}
             <p>{title} </p>{" "}
-            <BsArrowRightShort className="text-[0] group-hover:text-lg transition-all duration-300" />
+            <BsArrowRightShort className="hidden lgs:block text-[0] group-hover:text-lg transition-all duration-300" />
           </div>
           <p className="font-normal text-title-color opacity-75 group-hover:opacity-100">
             {details}
