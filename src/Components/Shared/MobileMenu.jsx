@@ -47,9 +47,8 @@ const MobileMenu = ({ open, setOpen }) => {
         open ? "flex h-screen  visible opacity-100" : "invisible opacity-0"
       }`}
     >
-      {/* overlay */}
       <div
-        className={`bg-white w-[95%] sm:w-[417px]  rounded-lg shadow-xl shadow-desc-color m-6 mb-0 flex flex-col  ${
+        className={` bg-white w-[95%] sm:w-[417px]  rounded-lg shadow-xl shadow-desc-color  m-6 mb-0 flex flex-col  ${
           open
             ? "min-h-[1100px] visible opacity-100"
             : "invisible opacity-0  h-0"
@@ -166,7 +165,7 @@ const MobileMenu = ({ open, setOpen }) => {
 
           {/* mobile submenu */}
           <div
-            className={` transition-all duration-300 border-t border-dashed border-desc-color border-opacity-30 ${
+            className={` transition-all duration-300 border-t border-dashed border-desc-color border-opacity-15 ${
               isSubmenu
                 ? "translate-x-0 opacity-100 visible"
                 : "translate-x-full opacity-0 invisible"

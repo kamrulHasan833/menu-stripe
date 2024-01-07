@@ -3,17 +3,17 @@ import ItemSubMenuCommon from "./ItemSubMenuCommon";
 
 const SubMenu2 = () => {
   return (
-    <div className="w-full lgs:w-[604px] lgs:h-[488px] ">
+    <div className="w-[180%] lgs:w-[604px] lgs:h-[488px] ">
       <div className="grid pt-8">
         {subMenuItems.map(({ category, items }, id) => (
           <div
             key={id}
-            className={` px-8 border-b border-dashed border-opacity-30 pb-6 border-desc-color ${
+            className={` px-8 border-b border-dashed border-opacity-15 pb-6 border-desc-color ${
               id === 2
                 ? "border-b-0 lgs:bg-bg-secondary h-[144px] rounded-md"
                 : id === 0
                 ? "border-b  "
-                : "pb-6 lgs:border-b"
+                : "pb-6 lgs:border-b-0"
             }`}
           >
             <h3
